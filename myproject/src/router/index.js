@@ -10,6 +10,8 @@ import BCardFooter from 'bootstrap-vue/es/components/card/card-footer'
 import BCardHeader from 'bootstrap-vue/es/components/card/card-header'
 import BCardImg from 'bootstrap-vue/es/components/card/card-img'
 import BTable from 'bootstrap-vue/es/components/table/table'
+import Image from 'bootstrap-vue/es/components/image'
+Vue.use(Image)
 Vue.component('b-card', BCard)
 Vue.component('b-card-body', BCardBody)
 Vue.component('b-card-footer', BCardFooter)
