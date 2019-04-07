@@ -1,6 +1,7 @@
 <template>
   <div class="container-fluid">
   <div class="row no-gutter">
+    <!-- <div class="d-none d-md-flex col-md-4 col-lg-6 bg-color"></div> -->
     <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
     <div class="col-md-8 col-lg-6">
       <div class="login d-flex align-items-center py-5">
@@ -49,6 +50,7 @@ export default {
       msg: 'Bem vindo ao Ucan!'
     }
   }
+  
 }
 </script>
 
@@ -70,11 +72,10 @@ export default {
   min-height: 100vh;
 }
 
-
 .bg-image {
   background-size: cover;
   background-position: center;
-  background-image: url('http://blueridgeoilpaint.com/wp-content/uploads/2017/02/0033_CERULEAN-BLUE.jpg'); 
+  background-image: url('https://i.pinimg.com/736x/4e/f8/54/4ef854bc4b175486c776ca25dbb1f935.jpg'); 
 }
 
 .login-heading {
@@ -99,7 +100,6 @@ export default {
 .form-label-group>label {
   padding: var(--input-padding-y) var(--input-padding-x);
   height: 50px;
-
   border-radius: .2rem;
   margin-top: 10px
 }
@@ -113,13 +113,14 @@ export default {
   margin-bottom: 0;
   /* Override default `<label>` margin */
   line-height: .1.5;
-  color: #495057;
+  /* color: #495057; */
+  color: #007bff;
   cursor: text;
   /* Match the input under the label */
   border: .1rem solid transparent;
   border-radius: .25rem;
   transition: all .1s ease-in-out;
-  border-block-end-color: #007bff;
+  /* border-block-end-color: #007bff; */
   
   
 }
@@ -148,13 +149,20 @@ export default {
 .form-label-group input:not(:placeholder-shown) {
   padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
   padding-bottom: calc(var(--input-padding-y) / 3);
+  font-size: 20px;
+  
 }
 
 .form-label-group input:not(:placeholder-shown)~label {
   padding-top: calc(var(--input-padding-y) / 3);
   padding-bottom: calc(var(--input-padding-y) / 3);
-  font-size: 1rem;
-  color:transparent;
+  font-size: 10px;
+  /* color:transparent; */
+  color: #007bff;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin: 1px;
 }
 
 
