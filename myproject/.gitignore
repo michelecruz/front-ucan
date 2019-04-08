@@ -7,6 +7,14 @@ yarn-error.log*
 /test/unit/coverage/
 /test/e2e/reports/
 selenium-debug.log
+config/
+build/
+.babelrc
+.editorconfig
+.eslintrc.js
+.postcssrc.js
+package.json
+package-lock.json
 
 # Editor directories and files
 .idea
